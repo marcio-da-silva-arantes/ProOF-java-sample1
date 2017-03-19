@@ -1,0 +1,203 @@
+<factorys number>
+6
+<node id>
+0
+<node type>
+2
+<node name>
+Run
+<node class name>
+ProOF.apl.factorys.fRun
+<chooses>
+2
+<node id>
+16
+<node type>
+2
+<node name>
+Problem
+<node class name>
+ProOF.apl.factorys.fProblem
+<chooses>
+0
+<node id>
+26
+<node type>
+2
+<node name>
+Stop
+<node class name>
+ProOF.apl.factorys.fStop
+<chooses>
+0
+<node id>
+43
+<node type>
+2
+<node name>
+TSP Operators
+<node class name>
+ProOF.apl.sample1.problem.TSP.TSPOperator
+<chooses>
+0
+<node id>
+43
+<node type>
+2
+<node name>
+TSP Operators
+<node class name>
+ProOF.apl.sample1.problem.TSP.TSPOperator
+<chooses>
+1
+<node id>
+43
+<node type>
+2
+<node name>
+TSP Operators
+<node class name>
+ProOF.apl.sample1.problem.TSP.TSPOperator
+<chooses>
+2
+<nodes number>
+12
+<node id>
+3
+<node type>
+1
+<node name>
+GA
+<node class name>
+ProOF.apl.sample1.method.GeneticAlgorithm
+<parameters number>
+3
+100
+3
+0.1
+<node id>
+11
+<node type>
+0
+<node name>
+Initialize
+<node class name>
+ProOF.gen.operator.Initialization
+<parameters number>
+0
+<node id>
+14
+<node type>
+0
+<node name>
+Crossover
+<node class name>
+ProOF.gen.operator.Crossover
+<parameters number>
+0
+<node id>
+15
+<node type>
+0
+<node name>
+Mutation
+<node class name>
+ProOF.gen.operator.Mutation
+<parameters number>
+0
+<node id>
+17
+<node type>
+0
+<node name>
+TSP
+<node class name>
+ProOF.apl.sample1.problem.TSP.TSP
+<parameters number>
+0
+<node id>
+23
+<node type>
+0
+<node name>
+BestSol
+<node class name>
+ProOF.gen.best.BestSol
+<parameters number>
+1
+0.1
+<node id>
+25
+<node type>
+3
+<node name>
+Evaluations
+<node class name>
+ProOF.gen.best.nEvaluations
+<parameters number>
+0
+<node id>
+24
+<node type>
+0
+<node name>
+Instance-TSP
+<node class name>
+ProOF.apl.sample1.problem.TSP.TSPInstance
+<parameters number>
+1
+tsp-input.txt
+<node id>
+27
+<node type>
+0
+<node name>
+Evaluations
+<node class name>
+ProOF.gen.stopping.Evaluations
+<parameters number>
+1
+1000
+<node id>
+44
+<node type>
+0
+<node name>
+Random Tour
+<node class name>
+ProOF.apl.sample1.problem.TSP.TSPOperator$RandomTour
+<parameters number>
+0
+<node id>
+45
+<node type>
+0
+<node name>
+Mut-Exchange
+<node class name>
+ProOF.apl.sample1.problem.TSP.TSPOperator$MutExchange
+<parameters number>
+0
+<node id>
+46
+<node type>
+0
+<node name>
+TwoPoints
+<node class name>
+ProOF.apl.sample1.problem.TSP.TSPOperator$TwoPoints
+<parameters number>
+0
+---------- summarizing ----------
+Run;GA
+Problem;TSP
+Stop;Evaluations
+TSP Operators;Random Tour
+TSP Operators;Mut-Exchange
+TSP Operators;TwoPoints
+population size;100
+tournament size;3
+mutation rate;0.1
+refresh time;0.1
+Instances for TSP;Cities30.txt
+Evaluations;1000
